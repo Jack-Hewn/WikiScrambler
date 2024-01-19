@@ -1,5 +1,3 @@
-npm install wikipedia
-
 var HTTPS = require('https');
 const wiki = require('wikipedia');
 
