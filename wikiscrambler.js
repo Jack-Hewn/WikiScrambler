@@ -1,9 +1,8 @@
-import 'wikipedia'
+import wiki from 'wikipedia';
 import { generate, count } from 'random-words';
+import fetch from 'node-fetch';
 
 console.log(generate());
-
-import wiki from 'wikipedia';
 
 (async () => {
 	try {
