@@ -1,6 +1,4 @@
 const wiki = require('wikipedia');
-
-let fetch = await import('node-fetch')
 import { generate, count } from 'random-words';
 
 console.log(generate());
@@ -8,6 +6,7 @@ console.log(generate());
 (async () => {
 	try {
 		const searchResults = await wiki.search(generate());
+		let fetch = await import('node-fetch')
 		console.log(searchResults);
 		//Response of type @wikiSearchResult - contains results and optionally a suggestion
 		const newUrl = await wiki.setLang('en');
