@@ -1,4 +1,4 @@
-const wiki = require('wikipedia');
+import 'wikipedia'
 import { generate, count } from 'random-words';
 
 console.log(generate());
