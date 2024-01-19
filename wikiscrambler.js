@@ -1,5 +1,7 @@
 const wiki = require('wikipedia');
-const generate = require('random-words');
+
+let fetch = await import('node-fetch')
+import { generate, count } from 'random-words';
 
 console.log(generate());
 
