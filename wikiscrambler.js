@@ -3,7 +3,7 @@ import { generate, count } from 'random-words';
 
 console.log(generate());
 
-const wiki = require('wikipedia');
+import wiki from 'wikipedia';
 
 (async () => {
 	try {
