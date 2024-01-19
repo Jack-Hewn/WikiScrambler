@@ -3,6 +3,8 @@ import { generate, count } from 'random-words';
 
 console.log(generate());
 
+const wiki = require('wikipedia');
+
 (async () => {
 	try {
 		const searchResults = await wiki.search(generate());
