@@ -1,8 +1,11 @@
 const wiki = require('wikipedia');
+import { generate, count } from "random-words";
+
+console.log(generate());
 
 (async () => {
 	try {
-		const searchResults = await wiki.search('Batma');
+		const searchResults = await wiki.search(generate());
 		console.log(searchResults);
 		//Response of type @wikiSearchResult - contains results and optionally a suggestion
 		const newUrl = await wiki.setLang('en');
