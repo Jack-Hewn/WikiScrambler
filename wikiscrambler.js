@@ -1,0 +1,1 @@
+const wiki = require('wikipedia');
