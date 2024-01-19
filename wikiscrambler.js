@@ -1,5 +1,5 @@
 const wiki = require('wikipedia');
-import { generate, count } from "random-words";
+const generate = require('random-words');
 
 console.log(generate());
 
