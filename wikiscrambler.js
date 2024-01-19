@@ -2,8 +2,6 @@ import wiki from 'wikipedia';
 import { generate, count } from 'random-words';
 import fetch from 'node-fetch';
 
-console.log(generate());
-
 (async () => {
 	try {
 		const searchResults = await wiki.search(generate());
