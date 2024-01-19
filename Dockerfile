@@ -1,1 +1,1 @@
-npm install wikipedia
+npm install
