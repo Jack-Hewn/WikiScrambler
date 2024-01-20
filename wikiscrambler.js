@@ -5,7 +5,8 @@ import { generate, count } from 'random-words';
 	try {
 		const searchResults = await wiki.search(generate());
 		console.log('Starting point:')
-		console.log(searchResults);
+		console.log(searchResults)
+		document.write('Starting point: ' + searchresults())
 		//Response of type @wikiSearchResult - contains results and optionally a suggestion
 	} catch (error) {
 		console.log(error);
@@ -19,7 +20,8 @@ await new Promise(resolve => setTimeout(resolve, 500));
 	try {
 		const searchResults = await wiki.search(generate());
 		console.log('Destination:')
-		console.log(searchResults);
+		console.log(searchResults)
+		document.write('Destination: ' + searchresults());
 		//Response of type @wikiSearchResult - contains results and optionally a suggestion
 	} catch (error) {
 		console.log(error);
