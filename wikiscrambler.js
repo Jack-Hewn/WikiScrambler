@@ -13,6 +13,8 @@ import { generate, count } from 'random-words';
 	}
 })();
 
+await new Promise(resolve => setTimeout(resolve, 500));
+
 (async () => {
 	try {
 		const searchResults = await wiki.search(generate());
