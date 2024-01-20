@@ -1,3 +1,3 @@
-npm install wikipedia
-npm install random-words
-npm install node-fetch
+RUN npm install wikipedia
+RUN npm install random-words
+RUN npm install node-fetch
