@@ -1,5 +1,5 @@
-import wiki from '/wikipedia';
-import { generate, count } from '/random-words';
+import wiki from 'wikipedia';
+import { generate, count } from 'random-words';
 
 (async () => {
 	try {
