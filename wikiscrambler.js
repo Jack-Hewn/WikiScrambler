@@ -13,7 +13,9 @@ import { generate, count } from 'random-words';
 	}
 })();
 
+(async () => {
 await new Promise(resolve => setTimeout(resolve, 500));
+})();
 
 (async () => {
 	try {
